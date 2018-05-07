@@ -134,7 +134,7 @@ div#chat.conv-form-wrapper {
 }
 div#chat.conv-form-wrapper div.wrapper-messages {
     position: relative;
-    height: 577px;
+    height: 800px;
     max-height: 71vh;
     overflow-y: scroll;
 }
