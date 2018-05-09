@@ -191,7 +191,7 @@ div#chat.conv-form-wrapper div#messages {
 div#chat div.options {
     word-wrap: normal;
     white-space: nowrap;
-    overflow-x: auto;
+    overflow-x: hidden;
     position: absolute;
     bottom: 100%;
     width: 100%;
