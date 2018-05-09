@@ -199,7 +199,7 @@ div#chat div.options {
 }
 div#chat div.options:after {
     content: '';
-    display: table;
+    display: table-column;
     clear: both;
 }
 div#chat div.options div.option {
