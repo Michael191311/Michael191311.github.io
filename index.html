@@ -33,6 +33,27 @@ width: 100%;
 		.button:hover {
 			background-color: #039177;
 		}
+		.myButton {
+			background-color:#06b799;
+			-moz-border-radius:8px;
+			-webkit-border-radius:8px;
+			border-radius:8px;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:20px;
+			font-weight:bold;
+			padding:13px 32px;
+			text-decoration:none;
+		}
+		.myButton:hover {
+			background-color:#009e84;
+		}
+		.myButton:active {
+			position:relative;
+			top:1px;
+		}
 		.btn, .btn-primary, .btn-lg {
 			background-color: #06b79a; !important
 		}
@@ -40,6 +61,7 @@ width: 100%;
 </head>
 <body>
 	<div class="container">
+		<a href="#" class="myButton">Weiter</a>
 		<a href="/chatbot.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Weiter</a>
 		<a href="/chatbot.html" class="button">Weiter</a>
 		<input type="button" onclick="location.href='/chatbot.html';" value="Weiter" />
