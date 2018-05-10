@@ -9,18 +9,28 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="demo.css">
 	<style>
+		.container {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			left: 0;
+width: 100%;
+		}
 		a.button {
 			-webkit-appearance: button;
 			-moz-appearance: button;
 			appearance: button;
 			
 			text-decoration: none;
+			background: #06b79a;
 			color: initial;
 		}
 	</style>
 </head>
 <body>
-	<input type="button" onclick="location.href='/chatbot.html';" value="Weiter" />
-	<button class="btn" type="submit">Weiter</button>
+	<div class="container">
+		<input type="button" onclick="location.href='/chatbot.html';" value="Weiter" />
+	</div>
+	//<button class="btn" type="submit">Weiter</button>
 </body>
 </html>
