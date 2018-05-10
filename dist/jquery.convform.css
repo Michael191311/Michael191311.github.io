@@ -82,7 +82,7 @@
 
 form.convFormDynamic {
     width: calc(100% - 33px);
-    margin: 10px auto 15px;
+    margin: 50px auto 55px;//10px auto 15px;
     padding: 0 !important;
     position: relative;
     box-shadow: 0 0 5px 5px rgba(222, 222, 222, 0.4);
@@ -120,9 +120,9 @@ form.convFormDynamic input.userInputDynamic {
 }
 
 div#chat.conv-form-wrapper div#messages {
-    max-height: 71vh;
+    max-height: 110vh;//71vh
     height: auto !important;
-    overflow-y: scroll;
+    //overflow-y: scroll;
 }
 div#chat.conv-form-wrapper div#messages:after {
     content: '';
@@ -136,7 +136,7 @@ div#chat.conv-form-wrapper div.wrapper-messages {
     position: relative;
     height: 800px;
     max-height: 71vh;
-    overflow-y: scroll;
+    overflow-y: auto;//scroll
 }
 div#chat:before {
     content: '';
@@ -190,8 +190,8 @@ div#chat.conv-form-wrapper div#messages {
 }
 div#chat div.options {
     word-wrap: normal;
-    white-space: nowrap;
-    overflow-x: visible;
+    white-space: normal;//nowrap
+    overflow-x: visible;//scroll
     position: absolute;
     bottom: 100%;
     width: 100%;
